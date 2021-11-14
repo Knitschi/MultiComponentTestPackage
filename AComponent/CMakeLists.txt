@@ -1,4 +1,4 @@
-include(cpfAddCppPackage)
+include(cpfAddCppPackageComponent)
 
 set( briefDescription "A dummy package-component." )
 
@@ -9,7 +9,7 @@ set( PACKAGE_PRODUCTION_FILES
 )
 
 ############################################## Add Package #################################
-cpfAddCppPackage( 
+cpfAddCppPackageComponent( 
 	TYPE					CONSOLE_APP
 	BRIEF_DESCRIPTION		${briefDescription}
 	PRODUCTION_FILES		${PACKAGE_PRODUCTION_FILES}

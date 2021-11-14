@@ -1,12 +1,15 @@
-include(cpfInitPackageProject)
+include(cpfPackageProject)
 
-cpfInitPackageProject(
+cpfPackageProject(
     BRIEF_DESCRIPTION "A repository containing dummy code that is used to test the multi-component-package feature of the CMakeProjectFramework."
     LONG_DESCRIPTION ""
     OWNER Knitschi
     WEBPAGE_URL "MultiComponentTestPackage"
     TARGET_NAMESPACE mctp
+    COMPONENTS
+        AComponent
+        BComponent
 )
 
-add_subdirectory(AComponent)
-add_subdirectory(BComponent)
+# Should we add a dummy target for package files?
+#getExistingPackageVersionFile( versionFile ${package})
