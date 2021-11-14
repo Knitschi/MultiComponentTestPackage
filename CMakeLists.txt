@@ -9,7 +9,10 @@ cpfPackageProject(
     COMPONENTS
         AComponent
         BComponent
+    PACKAGE_FILES
+        LICENSE
+        README.md
 )
 
 # Should we add a dummy target for package files?
-#getExistingPackageVersionFile( versionFile ${package})
+#
