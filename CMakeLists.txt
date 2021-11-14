@@ -12,4 +12,4 @@ cpfPackageProject(
 )
 
 # Should we add a dummy target for package files?
-#getExistingPackageVersionFile( versionFile ${packageComponent})
+#getExistingPackageVersionFile( versionFile ${package})
