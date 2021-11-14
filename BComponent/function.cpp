@@ -5,7 +5,7 @@ namespace b
 {
 	void function()
 	{
-		std::cout << "BPackage function()"
+		std::cout << "Run BPackage function()"
 				  << "\n";
 	}
 }
