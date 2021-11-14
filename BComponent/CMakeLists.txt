@@ -1,10 +1,10 @@
 include(cpfAddCppPackageComponent)
 
-set( PACKAGE_PUBLIC_HEADER
+set( publicHeader
 	function.h
 )
 
-set( PACKAGE_PRODUCTION_FILES
+set( sourceFiles
 	function.cpp
 )
 
@@ -13,5 +13,6 @@ cpfAddCppPackageComponent(
 	TYPE					LIB
 	OWNER 					Knitschi
 	BRIEF_DESCRIPTION		"A C++ dummy libary used for testing the CPF"
-	PUBLIC_HEADER			${PACKAGE_PUBLIC_HEADER}
+	PRODUCTION_FILES		${sourceFiles}
+	PUBLIC_HEADER			${publicHeader}
 )

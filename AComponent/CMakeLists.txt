@@ -2,15 +2,18 @@ include(cpfAddCppPackageComponent)
 
 set( briefDescription "A dummy package-component." )
 
-set( PACKAGE_PRODUCTION_FILES
-	main.cpp
-	function.cpp
+set( publicHeader
 	function.h
+)
+
+set( sourceFiles
+	function.cpp
 )
 
 ############################################## Add Package #################################
 cpfAddCppPackageComponent( 
-	TYPE					CONSOLE_APP
+	TYPE					LIB
 	BRIEF_DESCRIPTION		${briefDescription}
-	PRODUCTION_FILES		${PACKAGE_PRODUCTION_FILES}
+	PRODUCTION_FILES		${sourceFiles}
+	PUBLIC_HEADER			${publicHeader}
 )
