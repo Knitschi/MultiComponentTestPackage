@@ -1,4 +1,4 @@
-#include <BPackage/function.h>
+#include <BComponent/function.h>
 #include <iostream>
 
 namespace b
