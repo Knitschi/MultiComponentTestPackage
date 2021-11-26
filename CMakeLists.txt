@@ -13,6 +13,3 @@ cpfPackageProject(
         LICENSE
         README.md
 )
-
-# Should we add a dummy target for package files?
-#
