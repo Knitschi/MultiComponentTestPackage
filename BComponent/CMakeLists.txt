@@ -15,4 +15,5 @@ cpfAddCppPackageComponent(
 	BRIEF_DESCRIPTION		"A C++ dummy libary used for testing the CPF"
 	PRODUCTION_FILES		${sourceFiles}
 	PUBLIC_HEADER			${publicHeader}
+	CPP_NAMESPACE			MultiComp
 )
