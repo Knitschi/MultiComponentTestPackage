@@ -1,5 +1,4 @@
 #include <AComponent/function.h>
-
 #include <iostream>
 
 namespace a
