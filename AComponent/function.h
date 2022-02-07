@@ -1,6 +1,6 @@
 #pragma once
 
-#include <AComponent/AComponent_export.h>
+#include <AComponent/acomponent_export.h>
 
 
 namespace a
